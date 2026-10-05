@@ -51,6 +51,14 @@ export const metadata: Metadata = {
     url: "https://walking-with-jesus-taupe.vercel.app",
     siteName: "Walking With Jesus",
     type: "website",
+    images: [
+      {
+        url: "/walking-with-jesus-share.png",
+        width: 1200,
+        height: 630,
+        alt: "Walking With Jesus",
+      },
+    ],
   },
 
   twitter: {
@@ -58,6 +66,7 @@ export const metadata: Metadata = {
     title: "Walking With Jesus",
     description:
       "A peaceful Christian space for prayer, Scripture reflection, journaling, and quiet time with Jesus.",
+    images: ["/walking-with-jesus-share.png"],
   },
 
   icons: {
