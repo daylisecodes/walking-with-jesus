@@ -44,6 +44,10 @@ export const metadata: Metadata = {
 
   creator: "Daylise Hill",
 
+  verification: {
+    google: "SIodnds76sCoRxRPVbwug7tdrkt6l8MTNKgbnQ4kc7g",
+  },
+
   openGraph: {
     title: "Walking With Jesus",
     description:
