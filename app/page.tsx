@@ -31,13 +31,11 @@ export default function Home() {
       `}</style>
 
       <section className="relative min-h-screen overflow-hidden">
-
         {/* Slowly Moving Coastal Background */}
         <div
           className="peaceful-ocean-background absolute -inset-6 bg-cover bg-center"
           style={{
-            backgroundImage:
-              "url('/walking-with-jesus-coast-clean.png')",
+            backgroundImage: "url('/walking-with-jesus-coast-clean.png')",
           }}
         />
 
@@ -46,7 +44,6 @@ export default function Home() {
 
         {/* Main Content */}
         <div className="relative z-10 flex min-h-screen flex-col items-center px-5 py-8 text-center sm:px-6 sm:py-10">
-
           {/* Logo */}
           <img
             src="/walking-with-jesus-logo.png"
@@ -55,13 +52,18 @@ export default function Home() {
           />
 
           {/* Brand */}
-          <p className="mt-5 text-xs font-medium tracking-[0.3em] text-white drop-shadow-md sm:text-sm sm:tracking-[0.35em]">
-            WALKING WITH JESUS
-          </p>
+          <div className="mt-5">
+            <p className="text-xs font-medium tracking-[0.3em] text-white drop-shadow-md sm:text-sm sm:tracking-[0.35em]">
+              WALKING WITH JESUS
+            </p>
+
+            <p className="mx-auto mt-3 max-w-xl font-serif text-base italic text-white drop-shadow-md sm:text-lg">
+              Your Quiet Place for Prayer, Scripture &amp; Reflection
+            </p>
+          </div>
 
           {/* Welcome Card */}
           <div className="mt-7 w-full max-w-3xl rounded-3xl bg-white/75 px-5 py-7 shadow-2xl backdrop-blur-sm sm:px-10 sm:py-9">
-
             <h1 className="font-serif text-4xl leading-tight text-[#3d342b] sm:text-6xl md:text-7xl">
               Come as you are.
             </h1>
@@ -84,18 +86,15 @@ export default function Home() {
             <p className="mt-6 font-serif text-lg italic text-[#654e3b]">
               Stay a little longer.
             </p>
-
           </div>
 
           {/* Main Navigation */}
           <div className="mt-10 grid w-full max-w-4xl grid-cols-2 gap-3 md:grid-cols-4">
-
             <Link
               href="/quiet/scripture"
               className="rounded-2xl bg-white/90 px-4 py-5 shadow-xl backdrop-blur-sm transition hover:-translate-y-1"
             >
               <span className="text-2xl">📖</span>
-
               <span className="mt-2 block text-sm font-medium">
                 Read Scripture
               </span>
@@ -106,10 +105,7 @@ export default function Home() {
               className="rounded-2xl bg-white/90 px-4 py-5 shadow-xl backdrop-blur-sm transition hover:-translate-y-1"
             >
               <span className="text-2xl">📔</span>
-
-              <span className="mt-2 block text-sm font-medium">
-                Journal
-              </span>
+              <span className="mt-2 block text-sm font-medium">Journal</span>
             </Link>
 
             <Link
@@ -117,7 +113,6 @@ export default function Home() {
               className="rounded-2xl bg-white/90 px-4 py-5 shadow-xl backdrop-blur-sm transition hover:-translate-y-1"
             >
               <span className="text-2xl">🙏</span>
-
               <span className="mt-2 block text-sm font-medium">
                 Talk With Jesus
               </span>
@@ -128,17 +123,14 @@ export default function Home() {
               className="rounded-2xl bg-white/90 px-4 py-5 shadow-xl backdrop-blur-sm transition hover:-translate-y-1"
             >
               <span className="text-2xl">🌿</span>
-
               <span className="mt-2 block text-sm font-medium">
                 Quiet Mode
               </span>
             </Link>
-
           </div>
 
           {/* Site Notice */}
           <div className="mt-10 w-full max-w-2xl rounded-2xl bg-white/80 px-5 py-4 text-left shadow-md backdrop-blur-sm">
-
             <p className="text-sm font-semibold text-[#493f37]">
               A quiet place for spiritual encouragement
             </p>
@@ -152,12 +144,10 @@ export default function Home() {
               Walking With Jesus is not a medical, mental health, counseling,
               therapy, diagnostic, treatment, or healthcare service.
             </p>
-
           </div>
 
           {/* Footer */}
           <footer className="mt-7 w-full max-w-3xl rounded-2xl bg-black/25 px-5 py-6 text-center backdrop-blur-sm">
-
             <p className="text-sm font-medium leading-6 text-white drop-shadow-lg">
               Your privacy matters. Private journal and Talk With Jesus entries
               are designed to remain on your device unless a future feature
@@ -165,7 +155,6 @@ export default function Home() {
             </p>
 
             <div className="mt-5 flex flex-wrap justify-center gap-x-5 gap-y-3 text-sm">
-
               <Link
                 href="/privacy"
                 className="font-medium text-white underline drop-shadow-md"
@@ -193,16 +182,13 @@ export default function Home() {
               >
                 Contact
               </Link>
-
             </div>
 
             <p className="mt-5 text-sm text-white drop-shadow-lg">
               © {new Date().getFullYear()} Walking With Jesus. All rights
               reserved.
             </p>
-
           </footer>
-
         </div>
       </section>
     </main>
