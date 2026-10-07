@@ -56,7 +56,7 @@ export default function Home() {
 
           {/* Brand */}
           <p className="mt-5 text-xs font-medium tracking-[0.3em] text-white drop-shadow-md sm:text-sm sm:tracking-[0.35em]">
-            WALKING WITH JESUS™
+            WALKING WITH JESUS
           </p>
 
           {/* Welcome Card */}
@@ -90,7 +90,6 @@ export default function Home() {
           {/* Main Navigation */}
           <div className="mt-10 grid w-full max-w-4xl grid-cols-2 gap-3 md:grid-cols-4">
 
-            {/* Read Scripture */}
             <Link
               href="/quiet/scripture"
               className="rounded-2xl bg-white/90 px-4 py-5 shadow-xl backdrop-blur-sm transition hover:-translate-y-1"
@@ -102,7 +101,6 @@ export default function Home() {
               </span>
             </Link>
 
-            {/* Journal */}
             <Link
               href="/quiet/journal"
               className="rounded-2xl bg-white/90 px-4 py-5 shadow-xl backdrop-blur-sm transition hover:-translate-y-1"
@@ -114,7 +112,6 @@ export default function Home() {
               </span>
             </Link>
 
-            {/* Talk With Jesus */}
             <Link
               href="/quiet/talk"
               className="rounded-2xl bg-white/90 px-4 py-5 shadow-xl backdrop-blur-sm transition hover:-translate-y-1"
@@ -126,7 +123,6 @@ export default function Home() {
               </span>
             </Link>
 
-            {/* Quiet Mode */}
             <Link
               href="/quiet/still"
               className="rounded-2xl bg-white/90 px-4 py-5 shadow-xl backdrop-blur-sm transition hover:-translate-y-1"
@@ -140,7 +136,7 @@ export default function Home() {
 
           </div>
 
-          {/* Compact Site Notice */}
+          {/* Site Notice */}
           <div className="mt-10 w-full max-w-2xl rounded-2xl bg-white/80 px-5 py-4 text-left shadow-md backdrop-blur-sm">
 
             <p className="text-sm font-semibold text-[#493f37]">
@@ -168,7 +164,6 @@ export default function Home() {
               clearly tells you otherwise.
             </p>
 
-            {/* Legal Links */}
             <div className="mt-5 flex flex-wrap justify-center gap-x-5 gap-y-3 text-sm">
 
               <Link

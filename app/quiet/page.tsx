@@ -41,14 +41,13 @@ export default function QuietPlace() {
           }}
         />
 
-        {/* Overlay */}
         <div className="absolute inset-0 bg-black/15" />
 
-        {/* Main Content */}
         <div className="relative z-10 flex min-h-screen flex-col items-center px-5 py-8 text-center sm:px-6 sm:py-10">
 
           {/* Top Navigation */}
           <div className="flex w-full max-w-5xl items-center justify-between gap-3">
+
             <Link
               href="/"
               className="rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-[#654e3b] shadow-md transition hover:bg-white"
@@ -57,12 +56,14 @@ export default function QuietPlace() {
             </Link>
 
             <span className="text-xs font-medium tracking-[0.25em] text-white drop-shadow-md sm:text-sm">
-              WALKING WITH JESUS™
+              WALKING WITH JESUS
             </span>
+
           </div>
 
           {/* Heading */}
           <div className="mt-10">
+
             <h1 className="font-serif text-5xl text-white drop-shadow-lg sm:text-6xl md:text-7xl">
               Your Quiet Place
             </h1>
@@ -72,12 +73,12 @@ export default function QuietPlace() {
               <br />
               You don&apos;t have to perform here.
             </p>
+
           </div>
 
-          {/* Quiet Place Cards */}
+          {/* Cards */}
           <div className="mt-12 grid w-full max-w-5xl grid-cols-1 gap-5 sm:grid-cols-2">
 
-            {/* Be Still */}
             <Link
               href="/quiet/still"
               className="rounded-3xl bg-white/90 px-6 py-8 shadow-2xl backdrop-blur-sm transition hover:-translate-y-1"
@@ -93,7 +94,6 @@ export default function QuietPlace() {
               </span>
             </Link>
 
-            {/* Talk With Jesus */}
             <Link
               href="/quiet/talk"
               className="rounded-3xl bg-white/90 px-6 py-8 shadow-2xl backdrop-blur-sm transition hover:-translate-y-1"
@@ -109,7 +109,6 @@ export default function QuietPlace() {
               </span>
             </Link>
 
-            {/* Read Scripture */}
             <Link
               href="/quiet/scripture"
               className="rounded-3xl bg-white/90 px-6 py-8 shadow-2xl backdrop-blur-sm transition hover:-translate-y-1"
@@ -125,7 +124,6 @@ export default function QuietPlace() {
               </span>
             </Link>
 
-            {/* Journal */}
             <Link
               href="/quiet/journal"
               className="rounded-3xl bg-white/90 px-6 py-8 shadow-2xl backdrop-blur-sm transition hover:-translate-y-1"
@@ -143,8 +141,8 @@ export default function QuietPlace() {
 
           </div>
 
-          {/* Bottom Encouragement */}
           <div className="mt-12 rounded-3xl bg-white/70 px-6 py-5 shadow-lg backdrop-blur-sm">
+
             <p className="font-serif text-lg italic text-[#654e3b] sm:text-xl">
               Stay as long as you need.
             </p>
@@ -153,16 +151,18 @@ export default function QuietPlace() {
               This isn&apos;t about getting everything right. It&apos;s about
               making room to walk with Jesus.
             </p>
+
           </div>
 
-          {/* Bottom Home Link */}
           <div className="mt-8 pb-4">
+
             <Link
               href="/"
               className="text-sm font-medium text-white underline drop-shadow-md"
             >
               Return to Home
             </Link>
+
           </div>
 
         </div>
